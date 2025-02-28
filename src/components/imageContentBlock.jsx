@@ -18,10 +18,13 @@ const ImageContentBlock = ({img}) => {
       {/* Text content on the right */}
       <div className="w-full md:w-1/2">
         <div className="text-gray-800">
-          <h2 className="pb-10 text-light-grey text-uppercase">ABOUT</h2>
-          <h1 className="text-2xl font-bold mb-4">Who is Obu Interactive?</h1>
+          <h2 className="pb-10 text-light-grey text-uppercase text-[15px]">ABOUT</h2>
+          <h1 className="text-2xl font-bold mb-4 text-[40px]">Who is Obu Interactive?</h1>
           <p className="text-lg leading-relaxed">
-            We’re a San Diego-based legal marketing agency who’s been serving personal injury firms nationwide for over ten years. We connect notable attorneys with people in critical need of legal help. When justice is served, our neighborhoods become safer, negligent manufacturers are held accountable, and injured consumers are empowered. In the end, we all sleep a little better at night.
+            We’re a San Diego-based legal marketing agency who’s been serving personal injury firms nationwide 
+            for over ten years. We connect notable attorneys with people in critical need of legal help. When justice is served, 
+            our neighborhoods become safer, negligent manufacturers are held accountable, and injured consumers are empowered. 
+            In the end, we all sleep a little better at night.
           </p>
         </div>
       </div>

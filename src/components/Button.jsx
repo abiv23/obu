@@ -1,4 +1,5 @@
-import Link from 'next/link'; // For navigation (optional, if you want the button to link somewhere)
+import Link from 'next/link';
+// need to add that npm package that combines tailwind classes w/o overwritting or breaking
 
 const Button = ({ children, href, onClick, className = '' }) => {
   return (
