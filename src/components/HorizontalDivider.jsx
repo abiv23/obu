@@ -1,6 +1,12 @@
-const HorizontalDivider = ({ height = 'h-64', width = 'w-px', color = 'bg-gray-300', position = 'right-0 top-0' }) => {
+const HorizontalDivider = ({ 
+  width = 'auto', 
+  height = 'h-px', 
+  color = 'bg-gray-300', 
+  // position = 'left-0 bottom-0',
+  margin = "my-20 mx-20"
+}) => {
   return (
-    <div className={`${width} ${height} ${color} absolute ${position}`}></div>
+    <div className={`${width} ${height} ${color} ${margin}`}></div>
   );
 };
 

@@ -12,3 +12,13 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* Local Montserrat (if needed, download and place in public/fonts/) */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('/fonts/Montserrat-Bold.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}

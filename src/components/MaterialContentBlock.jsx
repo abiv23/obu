@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Button from './Button'; // Assuming you have the Button component from previous steps
 
-const Services = ({ 
+const MaterialContentBlock = ({ 
   title, 
   heading, 
   paragraph,
@@ -45,4 +45,4 @@ const Services = ({
   );
 };
 
-export default Services;
+export default MaterialContentBlock;
