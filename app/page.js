@@ -6,7 +6,7 @@ export const metadata = {
 import Hero from '../src/components/Hero';
 import Parallax from '../src/components/Parallax';
 import Footer from '../src/components/Footer';
-import ImageContentBlock from '../src/components/imageContentBlock';
+import ImageContentBlock from '../src/components/ImageContentBlock';
 import LeadGen from '../src/components/LeadGen';
 import HorizontalDivider from '../src/components/HorizontalDivider';
 import ServiceTools from '../src/components/ServiceTools';
