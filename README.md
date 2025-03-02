@@ -54,35 +54,7 @@ Open your browser to http://localhost:3000 to view the website.
 
 # Project Structure
 
-obu-interactive/
-├── app/
-│   ├── globals.css        # Tailwind CSS and global styles
-│   ├── layout.jsx         # Layout component for the app
-│   └── page.jsx           # Homepage with all components
-├── src/components/        # Reusable components
-│   ├── Button.jsx         # Reusable button component
-│   ├── CallToActionBlock.jsx # Call-to-action section
-│   ├── Footer.jsx         # Footer with logo, links, and contact info
-│   ├── Hero.jsx           # Hero section with image and text
-│   ├── HorizontalDivider.jsx # Horizontal divider line
-│   ├── ImageContentBlock.jsx # Image and text block
-│   ├── LeadGen.jsx        # Lead generation section
-│   ├── MaterialContentBlock.jsx # Services section with material design
-│   ├── Parallax.jsx       # Parallax effect section
-│   ├── Process.jsx        # Process steps section
-│   ├── ServiceTools.jsx   # Service platforms section
-│   ├── TestimonialBlock.jsx # Client testimonials section
-│   └── VideoContentBlock.jsx # Video and text block
-├── public/                # Static assets (images, SVGs, etc.)
-│   ├── images/            # Images for components
-│   └── favicon.ico        # Favicon
-├── .storybook/            # Storybook configuration
-│   ├── main.js            # Storybook configuration
-│   └── preview.js         # Storybook preview setup
-├── package.json           # Project dependencies and scripts
-├── tailwind.config.js     # Tailwind CSS configuration
-├── tsconfig.json          # TypeScript configuration (if using TypeScript)
-└── README.md              # This file
+Will fill this out when it's finished
 
 # Key Components
 
