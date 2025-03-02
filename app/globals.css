@@ -1,24 +1,26 @@
-/* eslint-disable */
+/* app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* eslint-enable */
 
-/* Add Open Sans via @font-face */
-@font-face {
-  font-family: 'Open Sans';
-  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap') format('woff2');
-  font-weight: 400 700; /* Support both regular and bold weights */
-  font-style: normal;
-  font-display: swap;
+/* Add Open Sans via @import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Add Montserrat via @import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Define font classes for Tailwind usage */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Local Montserrat (if needed, download and place in public/fonts/) */
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Regular.woff2') format('woff2'),
-       url('/fonts/Montserrat-Bold.woff2') format('woff2');
-  font-weight: 400 700;
-  font-style: normal;
-  font-display: swap;
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Optional: Set base font and spacing for consistency */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: #4D5059;
 }

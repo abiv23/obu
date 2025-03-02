@@ -49,7 +49,6 @@ const Process = ({
                   alt={step.iconAlt}
                   width={step.iconWidth}
                   height={step.iconHeight}
-                  className="object-contain rounded-full bg-green-500 p-4"
                 />
                 <p className="text-lg font-bold text-gray-800 mt-4">{step.stepTitle}</p>
                 <p className="text-gray-600 text-base max-w-xs mt-2">{step.stepBody}</p>

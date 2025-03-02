@@ -3,6 +3,7 @@ export const metadata = {
   description: 'Marketing for law firms ready to grow.',
 };
 
+import TopNav from '../src/components/TopNav';
 import Hero from '../src/components/Hero';
 import Parallax from '../src/components/Parallax';
 import Footer from '../src/components/Footer';
@@ -15,7 +16,8 @@ import MaterialContentBlock from '../src/components/MaterialContentBlock';
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col border-4 border-white" style={{ borderWidth: '12px' }}>
+      <TopNav />
       <Hero 
         img="/images/homepage/hero-image.jpg"
         title="OBU INTERACTIVE | LEGAL MARKETING AGENCY"
