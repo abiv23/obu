@@ -9,8 +9,9 @@ export async function createMonitor(url) {
       api_key: API_KEY,
       format: 'json',
       type: 1, // HTTP(s) monitor
-      url: url || process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
-      friendly_name: 'Obu Interactive Dev',
+      url: url || 'https://obuinteractive-8b3e2b.vercel.app',
+      friendly_name: 'Obu Interactive Live',
+      alert_contacts: '1', // Default email alert (configure in dashboard)
     }, {
       headers: {
         'cache-control': 'no-cache',
@@ -24,4 +25,21 @@ export async function createMonitor(url) {
   }
 }
 
-// ... getMonitorStatus function remains the same
+export async function getMonitorStatus(monitorId) {
+  try {
+    const response = await axios.post('https://api.uptimerobot.com/v2/getMonitors', {
+      api_key: API_KEY,
+      format: 'json',
+      monitors: monitorId,
+    }, {
+      headers: {
+        'cache-control': 'no-cache',
+        'content-type': 'application/x-www-form-urlencoded',
+      },
+    });
+    return response.data;
+  } catch (error) {
+    console.error('UptimeRobot API Error:', error);
+    throw error;
+  }
+}
