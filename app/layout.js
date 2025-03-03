@@ -1,4 +1,5 @@
-import { Inter } from 'next/font/google'; // Import only Inter
+import { Inter } from 'next/font/google';
+import { builder } from '@builder.io/sdk';
 import './globals.css';
 
 const inter = Inter({
